@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "CaixAlertas",
+    "tagline": "On-call & incident management"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "incidents": "Incidents",
+    "notifications": "Notifications",
+    "groups": "Groups",
+    "reports": "Reports",
+    "settings": "Settings",
+    "profile": "My profile"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "retry": "Retry",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "refresh": "Refresh",
+    "loadMore": "Load more",
+    "seeAll": "See all"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "empty": "No data available",
+    "offline": "No connection"
+  },
+  "severity": {
+    "P1": "P1 - Critical",
+    "P2": "P2 - High",
+    "P3": "P3 - Medium",
+    "P4": "P4 - Low"
+  },
+  "roles": {
+    "superadmin": "Super admin",
+    "admin_grupo": "Group admin",
+    "responsable": "Manager",
+    "guardia": "On-call",
+    "readonly": "Read only"
+  },
+  "time": {
+    "minutes": "{{count}} minute",
+    "minutes_other": "{{count}} minutes",
+    "hours": "{{count}} hour",
+    "hours_other": "{{count}} hours",
+    "days": "{{count}} day",
+    "days_other": "{{count}} days",
+    "ago": "{{time}} ago",
+    "justNow": "just now"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}-{{to}} of {{total}}",
+    "page": "Page {{current}} of {{total}}"
+  }
+}

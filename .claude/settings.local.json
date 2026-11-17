@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"require\\(''./node_modules/ajv-keywords/dist/definitions/typeof.js''\\)\")",
+      "Bash(npx expo:*)",
+      "Bash(node -e \"console.log\\(require\\(''./node_modules/metro/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''./node_modules/@expo/cli/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''./node_modules/expo/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/Users/pcncaixa/repo/CaixaAlerts/node_modules/metro/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/Users/pcncaixa/repo/CaixaAlerts/node_modules/@expo/cli/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\(''/Users/pcncaixa/repo/CaixaAlerts/node_modules/expo/package.json''\\).version\\)\")",
+      "Bash(find /Users/pcncaixa/repo/CaixaAlerts -path */node_modules/@expo/cli/package.json)",
+      "Bash(find /Users/pcncaixa/repo/CaixaAlerts -path */node_modules/expo/package.json)",
+      "Bash(find /Users/pcncaixa/repo/CaixaAlerts/apps/mobile/node_modules -name package.json -path *babel-preset-expo*)"
+    ]
+  }
+}

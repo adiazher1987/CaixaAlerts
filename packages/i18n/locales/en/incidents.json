@@ -1,0 +1,102 @@
+{
+  "list": {
+    "title": "Incidents",
+    "empty": "No incidents",
+    "emptyFiltered": "No incidents match the applied filters",
+    "active": "Active",
+    "all": "All"
+  },
+  "detail": {
+    "title": "Incident detail",
+    "application": "Affected application",
+    "caller": "Caller",
+    "callerPhone": "Phone",
+    "originGroup": "Origin group",
+    "involvedGroups": "Involved groups",
+    "escalationLevel": "Escalation level",
+    "slaDeadline": "SLA deadline",
+    "slaBreached": "SLA breached",
+    "timeline": "Timeline",
+    "resolution": "Resolution"
+  },
+  "create": {
+    "title": "New incident",
+    "fields": {
+      "title": "Title",
+      "titlePlaceholder": "Briefly describe the issue",
+      "description": "Description",
+      "descriptionPlaceholder": "Detail the problem, symptoms and context",
+      "application": "Application or system",
+      "applicationPlaceholder": "e.g.: Web portal, Banking core...",
+      "severity": "Severity",
+      "callerName": "Caller name",
+      "callerPhone": "Caller phone",
+      "group": "Receiving group"
+    },
+    "submit": "Create incident",
+    "success": "Incident created successfully"
+  },
+  "actions": {
+    "acknowledge": "Acknowledge (ACK)",
+    "acknowledgeShort": "ACK",
+    "takeOwnership": "Take ownership",
+    "escalate": "Escalate",
+    "escalateToGroup": "Escalate to another group",
+    "resolve": "Resolve",
+    "close": "Close",
+    "addComment": "Add comment"
+  },
+  "escalation": {
+    "title": "Escalate incident",
+    "level": "Escalation level",
+    "targetGroup": "Target group",
+    "reason": "Escalation reason",
+    "reasonPlaceholder": "Explain why escalation is needed",
+    "levels": {
+      "1": "Active on-call",
+      "2": "On-call manager",
+      "3": "Group manager",
+      "4": "Client manager",
+      "5": "Account manager",
+      "6": "CEO / Executive team"
+    },
+    "confirm": "Confirm escalation",
+    "success": "Incident escalated successfully"
+  },
+  "resolve": {
+    "title": "Resolve incident",
+    "summary": "Resolution summary",
+    "summaryPlaceholder": "Describe how the issue was resolved",
+    "rootCause": "Root cause",
+    "rootCausePlaceholder": "Identify the root cause of the problem",
+    "preventiveActions": "Preventive actions",
+    "preventiveActionsPlaceholder": "What can be done to prevent recurrence?",
+    "submit": "Mark as resolved",
+    "success": "Incident resolved successfully"
+  },
+  "status": {
+    "open": "Open",
+    "acknowledged": "Acknowledged",
+    "in_progress": "In progress",
+    "escalated": "Escalated",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "timeline": {
+    "created": "Incident created by {{user}}",
+    "acknowledged": "{{user}} acknowledged",
+    "escalated": "{{user}} escalated to level {{level}}: {{reason}}",
+    "cross_group": "{{user}} transferred to group {{group}}: {{reason}}",
+    "resolved": "{{user}} marked as resolved",
+    "closed": "Incident closed",
+    "auto_escalated": "Auto-escalated to level {{level}} (timeout {{minutes}} min)",
+    "comment": "{{user}}: {{message}}"
+  },
+  "notifications": {
+    "newIncident": "New {{severity}} incident",
+    "ackRequired": "Acknowledgment required",
+    "escalated": "Incident escalated to level {{level}}",
+    "slaWarning": "⚠️ SLA at {{percent}}% on {{severity}} incident",
+    "slaBreached": "🚨 SLA breached - {{title}}"
+  }
+}

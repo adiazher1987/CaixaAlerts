@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.expo/
+*.tsbuildinfo
+
+# Environment files — NEVER commit real secrets
+.env
+.env.local
+.env.development.local
+.env.staging.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Turbo
+.turbo/
+
+# Expo
+.expo/
+web-build/
+expo-env.d.ts
+
+# Android
+apps/mobile/android/.gradle/
+apps/mobile/android/app/build/
+apps/mobile/android/local.properties
+
+# iOS
+apps/mobile/ios/Pods/
+apps/mobile/ios/build/
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Misc
+*.pem
+*.key
+*.cert

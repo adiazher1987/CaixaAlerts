@@ -1,0 +1,20 @@
+{
+  "name": "@caixalertas/i18n",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./locales/*": "./locales/*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "i18next": "^23.11.0",
+    "react-i18next": "^14.1.0"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}

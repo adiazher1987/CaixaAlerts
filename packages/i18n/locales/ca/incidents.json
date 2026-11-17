@@ -1,0 +1,102 @@
+{
+  "list": {
+    "title": "Incidències",
+    "empty": "No hi ha incidències",
+    "emptyFiltered": "No hi ha incidències amb els filtres aplicats",
+    "active": "Actives",
+    "all": "Totes"
+  },
+  "detail": {
+    "title": "Detall d'incidència",
+    "application": "Aplicació afectada",
+    "caller": "Trucant",
+    "callerPhone": "Telèfon",
+    "originGroup": "Grup origen",
+    "involvedGroups": "Grups involucrats",
+    "escalationLevel": "Nivell d'escalada",
+    "slaDeadline": "Límit SLA",
+    "slaBreached": "SLA incomplert",
+    "timeline": "Línia de temps",
+    "resolution": "Resolució"
+  },
+  "create": {
+    "title": "Nova incidència",
+    "fields": {
+      "title": "Títol",
+      "titlePlaceholder": "Descriu breument el problema",
+      "description": "Descripció",
+      "descriptionPlaceholder": "Detalla el problema, símptomes i context",
+      "application": "Aplicació o sistema",
+      "applicationPlaceholder": "Ex: Portal web, Core bancari...",
+      "severity": "Severitat",
+      "callerName": "Nom del trucant",
+      "callerPhone": "Telèfon del trucant",
+      "group": "Grup receptor"
+    },
+    "submit": "Crear incidència",
+    "success": "Incidència creada correctament"
+  },
+  "actions": {
+    "acknowledge": "Confirmar recepció (ACK)",
+    "acknowledgeShort": "ACK",
+    "takeOwnership": "Prendre ownership",
+    "escalate": "Escalar",
+    "escalateToGroup": "Escalar a un altre grup",
+    "resolve": "Resoldre",
+    "close": "Tancar",
+    "addComment": "Afegir comentari"
+  },
+  "escalation": {
+    "title": "Escalar incidència",
+    "level": "Nivell d'escalada",
+    "targetGroup": "Grup destinació",
+    "reason": "Motiu de l'escalada",
+    "reasonPlaceholder": "Explica per què cal escalar",
+    "levels": {
+      "1": "Guàrdia activa",
+      "2": "Responsable de guàrdia",
+      "3": "Responsable de grup",
+      "4": "Responsable de client",
+      "5": "Responsable de compte",
+      "6": "CEO / Direcció"
+    },
+    "confirm": "Confirmar escalada",
+    "success": "Incidència escalada correctament"
+  },
+  "resolve": {
+    "title": "Resoldre incidència",
+    "summary": "Resum de la solució",
+    "summaryPlaceholder": "Descriu com s'ha resolt el problema",
+    "rootCause": "Causa arrel",
+    "rootCausePlaceholder": "Identifica la causa arrel del problema",
+    "preventiveActions": "Accions preventives",
+    "preventiveActionsPlaceholder": "Què es pot fer per evitar que torni a passar?",
+    "submit": "Marcar com a resolta",
+    "success": "Incidència resolta correctament"
+  },
+  "status": {
+    "open": "Oberta",
+    "acknowledged": "Confirmada",
+    "in_progress": "En progrés",
+    "escalated": "Escalada",
+    "resolved": "Resolta",
+    "closed": "Tancada"
+  },
+  "timeline": {
+    "created": "Incidència creada per {{user}}",
+    "acknowledged": "{{user}} va confirmar la recepció",
+    "escalated": "{{user}} va escalar al nivell {{level}}: {{reason}}",
+    "cross_group": "{{user}} va derivar al grup {{group}}: {{reason}}",
+    "resolved": "{{user}} va marcar com a resolta",
+    "closed": "Incidència tancada",
+    "auto_escalated": "Escalada automàtica al nivell {{level}} (timeout {{minutes}} min)",
+    "comment": "{{user}}: {{message}}"
+  },
+  "notifications": {
+    "newIncident": "Nova incidència {{severity}}",
+    "ackRequired": "Requereix confirmació",
+    "escalated": "Incidència escalada al nivell {{level}}",
+    "slaWarning": "⚠️ SLA al {{percent}}% en incidència {{severity}}",
+    "slaBreached": "🚨 SLA incomplert - {{title}}"
+  }
+}

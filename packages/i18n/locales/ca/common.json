@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "CaixAlertes",
+    "tagline": "Gestió de guàrdies i incidències"
+  },
+  "nav": {
+    "dashboard": "Tauler",
+    "incidents": "Incidències",
+    "notifications": "Notificacions",
+    "groups": "Grups",
+    "reports": "Informes",
+    "settings": "Configuració",
+    "profile": "El meu perfil"
+  },
+  "actions": {
+    "save": "Desar",
+    "cancel": "Cancel·lar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Tancar",
+    "back": "Tornar",
+    "retry": "Reintentar",
+    "search": "Cercar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "refresh": "Actualitzar",
+    "loadMore": "Carregar més",
+    "seeAll": "Veure tot"
+  },
+  "status": {
+    "loading": "Carregant...",
+    "error": "S'ha produït un error",
+    "empty": "No hi ha dades disponibles",
+    "offline": "Sense connexió"
+  },
+  "severity": {
+    "P1": "P1 - Crític",
+    "P2": "P2 - Alt",
+    "P3": "P3 - Mitjà",
+    "P4": "P4 - Baix"
+  },
+  "roles": {
+    "superadmin": "Superadministrador",
+    "admin_grupo": "Administrador de grup",
+    "responsable": "Responsable",
+    "guardia": "Guàrdia",
+    "readonly": "Només lectura"
+  },
+  "time": {
+    "minutes": "{{count}} minut",
+    "minutes_other": "{{count}} minuts",
+    "hours": "{{count}} hora",
+    "hours_other": "{{count}} hores",
+    "days": "{{count}} dia",
+    "days_other": "{{count}} dies",
+    "ago": "fa {{time}}",
+    "justNow": "ara mateix"
+  },
+  "pagination": {
+    "showing": "Mostrant {{from}}-{{to}} de {{total}}",
+    "page": "Pàgina {{current}} de {{total}}"
+  }
+}

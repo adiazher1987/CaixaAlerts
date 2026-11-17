@@ -1,0 +1,102 @@
+{
+  "list": {
+    "title": "Incidencias",
+    "empty": "No hay incidencias",
+    "emptyFiltered": "No hay incidencias con los filtros aplicados",
+    "active": "Activas",
+    "all": "Todas"
+  },
+  "detail": {
+    "title": "Detalle de incidencia",
+    "application": "Aplicación afectada",
+    "caller": "Llamante",
+    "callerPhone": "Teléfono",
+    "originGroup": "Grupo origen",
+    "involvedGroups": "Grupos involucrados",
+    "escalationLevel": "Nivel de escalado",
+    "slaDeadline": "Límite SLA",
+    "slaBreached": "SLA incumplido",
+    "timeline": "Línea de tiempo",
+    "resolution": "Resolución"
+  },
+  "create": {
+    "title": "Nueva incidencia",
+    "fields": {
+      "title": "Título",
+      "titlePlaceholder": "Describe brevemente el problema",
+      "description": "Descripción",
+      "descriptionPlaceholder": "Detalla el problema, síntomas y contexto",
+      "application": "Aplicación o sistema",
+      "applicationPlaceholder": "Ej: Portal web, Core bancario...",
+      "severity": "Severidad",
+      "callerName": "Nombre del llamante",
+      "callerPhone": "Teléfono del llamante",
+      "group": "Grupo receptor"
+    },
+    "submit": "Crear incidencia",
+    "success": "Incidencia creada correctamente"
+  },
+  "actions": {
+    "acknowledge": "Confirmar recepción (ACK)",
+    "acknowledgeShort": "ACK",
+    "takeOwnership": "Tomar ownership",
+    "escalate": "Escalar",
+    "escalateToGroup": "Escalar a otro grupo",
+    "resolve": "Resolver",
+    "close": "Cerrar",
+    "addComment": "Añadir comentario"
+  },
+  "escalation": {
+    "title": "Escalar incidencia",
+    "level": "Nivel de escalado",
+    "targetGroup": "Grupo destino",
+    "reason": "Motivo del escalado",
+    "reasonPlaceholder": "Explica por qué es necesario escalar",
+    "levels": {
+      "1": "Guardia activa",
+      "2": "Responsable de guardia",
+      "3": "Responsable de grupo",
+      "4": "Responsable de cliente",
+      "5": "Responsable de cuenta",
+      "6": "CEO / Dirección"
+    },
+    "confirm": "Confirmar escalado",
+    "success": "Incidencia escalada correctamente"
+  },
+  "resolve": {
+    "title": "Resolver incidencia",
+    "summary": "Resumen de la solución",
+    "summaryPlaceholder": "Describe cómo se resolvió el problema",
+    "rootCause": "Causa raíz",
+    "rootCausePlaceholder": "Identifica la causa raíz del problema",
+    "preventiveActions": "Acciones preventivas",
+    "preventiveActionsPlaceholder": "¿Qué se puede hacer para evitar que vuelva a ocurrir?",
+    "submit": "Marcar como resuelta",
+    "success": "Incidencia resuelta correctamente"
+  },
+  "status": {
+    "open": "Abierta",
+    "acknowledged": "Confirmada",
+    "in_progress": "En progreso",
+    "escalated": "Escalada",
+    "resolved": "Resuelta",
+    "closed": "Cerrada"
+  },
+  "timeline": {
+    "created": "Incidencia creada por {{user}}",
+    "acknowledged": "{{user}} confirmó recepción",
+    "escalated": "{{user}} escaló al nivel {{level}}: {{reason}}",
+    "cross_group": "{{user}} derivó al grupo {{group}}: {{reason}}",
+    "resolved": "{{user}} marcó como resuelta",
+    "closed": "Incidencia cerrada",
+    "auto_escalated": "Escalado automático al nivel {{level}} (timeout {{minutes}} min)",
+    "comment": "{{user}}: {{message}}"
+  },
+  "notifications": {
+    "newIncident": "Nueva incidencia {{severity}}",
+    "ackRequired": "Requiere confirmación",
+    "escalated": "Incidencia escalada al nivel {{level}}",
+    "slaWarning": "⚠️ SLA al {{percent}}% en incidencia {{severity}}",
+    "slaBreached": "🚨 SLA incumplido - {{title}}"
+  }
+}
